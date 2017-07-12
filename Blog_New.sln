@@ -1,0 +1,131 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog.Global", "Blog.Global", "{E760DC49-4F99-45E1-B7A1-FCF5F5FD48D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog.DAL", "Blog.DAL", "{E325148A-C8EA-4791-8729-8A36F0EF305A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog.BLL", "Blog.BLL", "{4087F6FE-81F3-49B3-A2FB-EF73EC83EA7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Entity", "Blog.Entity\Blog.Entity.csproj", "{8DBB905F-E4B3-4018-B72D-E2A404C3D3CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Common", "Blog.Common\Blog.Common.csproj", "{EC59F5A7-7C54-4897-9DA2-7338A1892A9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.DAL", "Blog.DAL\Blog.DAL.csproj", "{7C3A5FFD-95C2-428C-BADD-4AE6A7AE8381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.IDAL", "Blog.IDAL\Blog.IDAL.csproj", "{3467DB77-676D-4911-AB79-69FCDB04F29D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.DALSession", "Blog.DALSession\Blog.DALSession.csproj", "{166BBDBE-E63D-463D-B599-FE08583FAF78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.BLL", "Blog.BLL\Blog.BLL.csproj", "{E7F9333B-D164-4E04-B815-077B83BE0B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.IBLL", "Blog.IBLL\Blog.IBLL.csproj", "{2B35A568-E159-439C-96B1-9EA29440904B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.BLLSession", "Blog.BLLSession\Blog.BLLSession.csproj", "{6CFDF69D-0C85-4E5C-A302-73B442A2AEF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog.UI", "Blog.UI", "{3217AE47-1182-4354-B943-2CDBCD0B75B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Web", "Blog.Web\Blog.Web.csproj", "{DA03E47D-7E52-4221-A734-0F31C0FA8EB2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://lyteam2016.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Blog.Entity\\Blog.Entity.csproj
+		SccProjectTopLevelParentUniqueName1 = Blog_New.sln
+		SccProjectName1 = Blog.Entity
+		SccLocalPath1 = Blog.Entity
+		SccProjectUniqueName2 = Blog.Common\\Blog.Common.csproj
+		SccProjectTopLevelParentUniqueName2 = Blog_New.sln
+		SccProjectName2 = Blog.Common
+		SccLocalPath2 = Blog.Common
+		SccProjectUniqueName3 = Blog.DAL\\Blog.DAL.csproj
+		SccProjectTopLevelParentUniqueName3 = Blog_New.sln
+		SccProjectName3 = Blog.DAL
+		SccLocalPath3 = Blog.DAL
+		SccProjectUniqueName4 = Blog.IDAL\\Blog.IDAL.csproj
+		SccProjectTopLevelParentUniqueName4 = Blog_New.sln
+		SccProjectName4 = Blog.IDAL
+		SccLocalPath4 = Blog.IDAL
+		SccProjectUniqueName5 = Blog.BLL\\Blog.BLL.csproj
+		SccProjectTopLevelParentUniqueName5 = Blog_New.sln
+		SccProjectName5 = Blog.BLL
+		SccLocalPath5 = Blog.BLL
+		SccProjectUniqueName6 = Blog.IBLL\\Blog.IBLL.csproj
+		SccProjectTopLevelParentUniqueName6 = Blog_New.sln
+		SccProjectName6 = Blog.IBLL
+		SccLocalPath6 = Blog.IBLL
+		SccProjectUniqueName7 = Blog.BLLSession\\Blog.BLLSession.csproj
+		SccProjectTopLevelParentUniqueName7 = Blog_New.sln
+		SccProjectName7 = Blog.BLLSession
+		SccLocalPath7 = Blog.BLLSession
+		SccProjectUniqueName8 = Blog.DALSession\\Blog.DALSession.csproj
+		SccProjectTopLevelParentUniqueName8 = Blog_New.sln
+		SccProjectName8 = Blog.DALSession
+		SccLocalPath8 = Blog.DALSession
+		SccProjectUniqueName9 = Blog.Web\\Blog.Web.csproj
+		SccProjectTopLevelParentUniqueName9 = Blog_New.sln
+		SccProjectName9 = Blog.Web
+		SccLocalPath9 = Blog.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DBB905F-E4B3-4018-B72D-E2A404C3D3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBB905F-E4B3-4018-B72D-E2A404C3D3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBB905F-E4B3-4018-B72D-E2A404C3D3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBB905F-E4B3-4018-B72D-E2A404C3D3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC59F5A7-7C54-4897-9DA2-7338A1892A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC59F5A7-7C54-4897-9DA2-7338A1892A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC59F5A7-7C54-4897-9DA2-7338A1892A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC59F5A7-7C54-4897-9DA2-7338A1892A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3A5FFD-95C2-428C-BADD-4AE6A7AE8381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3A5FFD-95C2-428C-BADD-4AE6A7AE8381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3A5FFD-95C2-428C-BADD-4AE6A7AE8381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3A5FFD-95C2-428C-BADD-4AE6A7AE8381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3467DB77-676D-4911-AB79-69FCDB04F29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3467DB77-676D-4911-AB79-69FCDB04F29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3467DB77-676D-4911-AB79-69FCDB04F29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3467DB77-676D-4911-AB79-69FCDB04F29D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166BBDBE-E63D-463D-B599-FE08583FAF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166BBDBE-E63D-463D-B599-FE08583FAF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166BBDBE-E63D-463D-B599-FE08583FAF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166BBDBE-E63D-463D-B599-FE08583FAF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F9333B-D164-4E04-B815-077B83BE0B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F9333B-D164-4E04-B815-077B83BE0B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F9333B-D164-4E04-B815-077B83BE0B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F9333B-D164-4E04-B815-077B83BE0B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B35A568-E159-439C-96B1-9EA29440904B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B35A568-E159-439C-96B1-9EA29440904B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B35A568-E159-439C-96B1-9EA29440904B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B35A568-E159-439C-96B1-9EA29440904B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CFDF69D-0C85-4E5C-A302-73B442A2AEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFDF69D-0C85-4E5C-A302-73B442A2AEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFDF69D-0C85-4E5C-A302-73B442A2AEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFDF69D-0C85-4E5C-A302-73B442A2AEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA03E47D-7E52-4221-A734-0F31C0FA8EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA03E47D-7E52-4221-A734-0F31C0FA8EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA03E47D-7E52-4221-A734-0F31C0FA8EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA03E47D-7E52-4221-A734-0F31C0FA8EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DBB905F-E4B3-4018-B72D-E2A404C3D3CC} = {E760DC49-4F99-45E1-B7A1-FCF5F5FD48D2}
+		{EC59F5A7-7C54-4897-9DA2-7338A1892A9E} = {E760DC49-4F99-45E1-B7A1-FCF5F5FD48D2}
+		{7C3A5FFD-95C2-428C-BADD-4AE6A7AE8381} = {E325148A-C8EA-4791-8729-8A36F0EF305A}
+		{3467DB77-676D-4911-AB79-69FCDB04F29D} = {E325148A-C8EA-4791-8729-8A36F0EF305A}
+		{166BBDBE-E63D-463D-B599-FE08583FAF78} = {E325148A-C8EA-4791-8729-8A36F0EF305A}
+		{E7F9333B-D164-4E04-B815-077B83BE0B0B} = {4087F6FE-81F3-49B3-A2FB-EF73EC83EA7E}
+		{2B35A568-E159-439C-96B1-9EA29440904B} = {4087F6FE-81F3-49B3-A2FB-EF73EC83EA7E}
+		{6CFDF69D-0C85-4E5C-A302-73B442A2AEF6} = {4087F6FE-81F3-49B3-A2FB-EF73EC83EA7E}
+		{DA03E47D-7E52-4221-A734-0F31C0FA8EB2} = {3217AE47-1182-4354-B943-2CDBCD0B75B6}
+	EndGlobalSection
+EndGlobal
